@@ -2,16 +2,34 @@ body {
 	background-color: #f2d3d3;
 }
 
-h1, p, li, a {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+h1 {
+  color: #FFFFFF;
+  font-size: 35px;
 }
 
-h1, p, li, a {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+a {
+  text-decoration: none;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #FFFFFF;
+  font-size: 25px;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: #df9292;
+  color: #OOOOOO;
+}
+
+.topnav a.active {
+  background-color: #c53b3b;
+  color: #FFFFFF;
 }
 
 #photoFormulaOneHome {
@@ -19,7 +37,7 @@ h1, p, li, a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  Padding: 25px 0px;
+  Padding: 15px 0px;
 }
 
 .colorBand {
